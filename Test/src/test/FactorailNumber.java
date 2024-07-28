@@ -16,7 +16,8 @@ public class FactorailNumber {
 		for(int i=1;i<num;i++) 
 		{
 		
-			fact*=i;
+			fact=fact*i;
+			System.out.println(fact);
 		}
 		
 		System.out.println(fact);
